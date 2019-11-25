@@ -1,0 +1,9 @@
+[v-cloak] {
+  display: none;
+}
+
+*,
+*::after,
+*::before {
+  transition: all 0.25s ease-out;
+}
