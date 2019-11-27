@@ -9,9 +9,9 @@
 }
 
 body {
-  background: rgb(219, 216, 216);
+  background: rgb(255, 254, 254);
   margin: 0;
-  color: #ffffff;
+  color: #5a5a5a;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,7 +26,7 @@ p {
   font-weight: 300;
   font-size: 20px;
   line-height: 30px;
-  color: rgb(255, 255, 255);
+  color: #666;
   margin-top: 10px;
 }
 
@@ -86,13 +86,13 @@ html, body {
 }
 
 ::-moz-selection {
-  color: rgb(141, 134, 134);
+  color: #fff;
   text-shadow: none;
   background: #2B2E31;
 }
 
 ::selection {
-  color: rgb(0, 0, 0);
+  color: #fff;
   text-shadow: none;
   background: #2B2E31;
 }
@@ -300,12 +300,12 @@ a:hover, a:focus {
 
 #h {
   background: url(../img/header.png) no-repeat center top;
-  background-color: rgba(0, 0, 0, 0.2);;
+  background-color: #ece4e4;
   padding-top: 230px;
   text-align: center;
   background-attachment: relative;
   background-position: center center;
-  min-height: 760px;
+  min-height: 700px;
   width: 100%;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -340,7 +340,7 @@ a:hover, a:focus {
 }
 
 #w h4 {
-  border: 2px solid #ffffff;
+  border: 2px solid #5a5a5a;
   padding: 15px;
 }
 
@@ -349,13 +349,13 @@ a:hover, a:focus {
 }
 
 #w p.text {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 #w p.introduction:first-letter {
-  font-size: 40px;
+  font-size: 50px;
   float: left;
-  color: #2270af;
+  color: #da4e02;
   line-height: 40px;
   padding-top: 3px;
   padding-right: 3px;
@@ -377,7 +377,7 @@ a:hover, a:focus {
 #g {
   padding-top: 80px;
   padding-bottom: 80px;
-  background:  rgba(0, 0, 0, 0.2);;
+  background: #f8f8f8;
 }
 
 #g h4 {
@@ -391,7 +391,7 @@ a:hover, a:focus {
 
 #g i {
   font-size: 30px;
-  color: white;
+  color: #da4e02;
 }
 
 /* Price */
@@ -407,7 +407,7 @@ a:hover, a:focus {
 }
 
 #g p.desc {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 22px;
 }
 
